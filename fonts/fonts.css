@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Roboto-thin';
+  src: url('Roboto-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-black';
+  src: url('Roboto-Black.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display-Black';
+  src: url('PlayfairDisplay-Black.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-regular';
+  src: url('Roboto-regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display-Medium';
+  src: url('PlayfairDisplay-Medium.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'HammersmithOne-Regular';
+  src: url('HammersmithOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url('DaxlinePro-ExtraBold.eot');
+  src: local('DaxlinePro-ExtraBold'),
+    url('DaxlinePro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('DaxlinePro-ExtraBold.woff') format('woff'),
+    url('DaxlinePro-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
