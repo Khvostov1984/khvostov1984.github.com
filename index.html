@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
   <link href="player/video-js.min.css" rel="stylesheet">
-  <script src="player/video.min.js"></script>
   <link href="player/video-js.css" rel="stylesheet">
 </head>
 
@@ -50,7 +49,6 @@
       </div>
     </nav>
 
-
     <header>
       <div class="container">
         <h1>We Are Awesome Creative Agency</h1>
@@ -76,7 +74,6 @@
       </div>
     </header>
   </section>
-
 
   <section id="section-2">
     <div class="container">
@@ -104,13 +101,13 @@
     </div>
   </section>
 
-  <section id="Section-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <img src="img/icons/section-3-play.png" alt="">
-          <h2>WATCH OUR STORY</h2>
-        </div>
+  <section id="section-video">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <video class="video-js vjs-fluid vjs-default-skin center-big-play-button" id="my_video_1" controls
+          data-setup='{}' center-big-play-button="true" poster='img/section-3-bg.jpg'>
+          <source src="video/video1.mp4" type='video/mp4' />
+        </video>
       </div>
     </div>
   </section>
@@ -139,7 +136,6 @@
           <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
         </div>
       </div>
-
       <div class="row row-down">
         <div class="col-lg-4 left">
           <img src="img/icons/section-4-4.png" alt="">
@@ -230,14 +226,10 @@
         <img src="img/sec6-11.jpg" alt="">
         <img src="img/sec6-12.jpg" alt="">
       </div>
-
       <div class="section-6-btn">
         <a href="#page-top" class="button js-scroll-trigger">LOAD MORE</a>
       </div>
     </div>
-
-
-
   </section>
 
   <section id="Section-7">
@@ -284,7 +276,6 @@
             <img src="img/Calvin_klein_logo.png" alt="">
             <img src="img/Converse_logo.png" alt="">
             <img src="img/Levi's_logo.png" alt="">
-
           </div>
           <div class="right">
             <img src="img/Logo_of_Mango.png" alt="">
@@ -297,7 +288,6 @@
       </div>
     </div>
   </section>
-
 
   <footer id="footer">
     <div class="container">
@@ -374,18 +364,11 @@
     </div>
   </footer>
 
-
-
-
-
-
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.bundle.js"></script>
   <script src="js/jquery.easing.js"></script>
   <script src="js/script.js"></script>
-  <script src="OwlCarousel/dist/owl.carousel.min.js"></script>
-
-
+  <script src="player/video.min.js"></script>
 
 </body>
 

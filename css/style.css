@@ -148,19 +148,28 @@ header .button:hover {
 }
 
 
-#Section-3 {
+/* #Section-3 {
     height: 650px;
     background-image: url(../img/section-3-bg.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
-}
+} */
 
-#Section-3 img {
+/* #Section-3 img {
     margin-top: 239px;
+} */
+
+#section-video {
+    height: 650px;
 }
 
-#Section-3 h2 {
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* #Section-3 h2 {
     color: #ffffff;
     font-family: "Roboto - Black";
     font-size: 19px;
@@ -168,7 +177,7 @@ header .button:hover {
     text-transform: uppercase;
     letter-spacing: 0.8px;
     margin-top: 35px;
-}
+} */
 
 #Section-4 {
     height: 890px;
